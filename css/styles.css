@@ -1,0 +1,328 @@
+body {
+  width: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: fit-content;
+  background: lightblue;
+}
+.box {
+  height: fit-content;
+  margin: 1rem;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.home_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.list_item > ul > li {
+  display: inline;
+  margin-right: 1rem;
+  text-decoration: underline;
+}
+
+.menu_item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu_item > div {
+  padding: 0.5rem;
+  margin-right: 5px;
+  border: 2px solid grey;
+  width: 6rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container-1 {
+  display: flex;
+}
+
+.carousel {
+  width: 65%;
+  height: 30%;
+}
+
+.carousel_img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo > div {
+  color: whitesmoke;
+  background: tomato;
+  width: 18%;
+  height: 30px;
+  padding: 0.3rem;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.border_top {
+  width: 100%;
+  border-top: 3px solid black;
+  margin: 5px 0 5px 0;
+}
+.selection {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-left: 2.5rem;
+  justify-content: center;
+}
+.selection .dropDown {
+  width: 80%;
+}
+
+.dropDown > select {
+  width: 100%;
+  height: 3rem;
+  margin: 1rem 0;
+}
+.header > h3 {
+  margin-top: 0rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.header,
+.dropDown {
+  text-align: center;
+  margin-left: 4rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  color: whitesmoke;
+  background: cornflowerblue;
+  border: 0;
+}
+
+.container2 {
+  margin-top: 00.5rem;
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+}
+.Films {
+  width: 40%;
+  height: fit-content;
+  border: 2px solid black;
+}
+.Allfilms {
+  font-weight: 700;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+
+.showtime {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.now,
+.coming {
+  margin-left: 0;
+  width: 50vh;
+  text-align: center;
+  border: 1px solid black;
+  padding: 00.5rem 0;
+}
+.film1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 00.5rem;
+  padding-bottom: 0.5rem;
+}
+.image2 > img {
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+.filmreview1 {
+  display: flex;
+  width: 50%;
+}
+.cinema,
+.book {
+  margin-top: none;
+  width: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+.story {
+  float: right;
+}
+.image2 {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-left: 1rem;
+}
+.more {
+  margin-left: 14rem;
+  margin-top: 5rem;
+}
+.customer {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+}
+.goal {
+  width: 25%;
+  height: fit-content;
+}
+.goaluser1 {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 2px solid black;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+.goal1 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  margin-bottom: 2rem;
+}
+.goaluser2 {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 2px solid black;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+.goal2 {
+  width: 100%;
+  height: 514px;
+  border: 2px solid black;
+}
+.findcinema {
+  width: 25%;
+  height: fit-content;
+  margin-right: 1rem;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
+}
+.Cinema {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 2px solid black;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+.select {
+  margin: 1rem;
+  width: 80%;
+}
+.Or {
+  margin-left: 1rem;
+}
+.location2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 235px;
+  border: 2px solid black;
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
+}
+.postcode {
+  width: 80%;
+  margin: 1rem;
+}
+.password {
+  width: 80%;
+  margin-left: 1rem;
+}
+.btn,
+button {
+  width: 30%;
+  margin-left: 14.5rem;
+}
+.btn1 {
+  width: 30%;
+  margin-top: 4rem;
+  margin-right: 00.5rem;
+}
+.locationbased {
+  width: 100%;
+  height: 243px;
+  border: 2px solid black;
+}
+.promotion {
+  width: 100%;
+  border-bottom: 2px solid black;
+  padding: 00.5rem 0;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+.keepme {
+  width: 99%;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 0.5rem;
+  border: 2px solid black;
+}
+.input {
+  width: 40%;
+  height: 2rem;
+  margin-top: 0.7rem;
+}
+.alpha {
+  font-size: large;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+.signup {
+  width: 8%;
+  margin-right: 1rem;
+  margin-top: 0.7rem;
+  height: fit-content;
+}
